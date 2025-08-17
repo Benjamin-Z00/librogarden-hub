@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{ color-scheme: dark; }
+body{ @apply bg-[#0B1022] text-[#E8ECFF]; }
+.a-cta{ @apply inline-flex rounded-full px-6 py-3 font-semibold bg-pink-600 text-white shadow-lg hover:opacity-90 transition; }
+.link{ @apply underline text-pink-400 hover:text-pink-300; }
+.container{ @apply max-w-5xl mx-auto px-6; }
